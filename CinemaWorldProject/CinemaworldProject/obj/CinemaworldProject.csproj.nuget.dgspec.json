@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Deivid\\source\\repos\\Cinemaworld\\CinemaworldProject\\CinemaworldProject.csproj": {}
+    "D:\\C# Applications\\CinemaWorld\\CinemaWorld\\CinemaWorldProject\\CinemaworldProject\\CinemaworldProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Deivid\\source\\repos\\Cinemaworld\\CinemaworldProject\\CinemaworldProject.csproj": {
+    "D:\\C# Applications\\CinemaWorld\\CinemaWorld\\CinemaWorldProject\\CinemaworldProject\\CinemaworldProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Deivid\\source\\repos\\Cinemaworld\\CinemaworldProject\\CinemaworldProject.csproj",
+        "projectUniqueName": "D:\\C# Applications\\CinemaWorld\\CinemaWorld\\CinemaWorldProject\\CinemaworldProject\\CinemaworldProject.csproj",
         "projectName": "CinemaworldProject",
-        "projectPath": "C:\\Users\\Deivid\\source\\repos\\Cinemaworld\\CinemaworldProject\\CinemaworldProject.csproj",
+        "projectPath": "D:\\C# Applications\\CinemaWorld\\CinemaWorld\\CinemaWorldProject\\CinemaworldProject\\CinemaworldProject.csproj",
         "packagesPath": "C:\\Users\\Deivid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Deivid\\source\\repos\\Cinemaworld\\CinemaworldProject\\obj\\",
+        "outputPath": "D:\\C# Applications\\CinemaWorld\\CinemaWorld\\CinemaWorldProject\\CinemaworldProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deivid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,11 +46,11 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
@@ -58,11 +58,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

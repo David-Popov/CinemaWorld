@@ -20,7 +20,11 @@ namespace CinemaworldProject.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            DataModel data = new DataModel()
+            {
+                Date = DateTime.UtcNow
+            };
+            return View(data);
         }
 
         public IActionResult Privacy()

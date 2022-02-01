@@ -122,7 +122,6 @@ D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
-D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\refs\Microsoft.VisualBasic.Core.dll
@@ -449,3 +448,5 @@ D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\CloudinaryDotNet.dll
+D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll

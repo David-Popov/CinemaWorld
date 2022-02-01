@@ -1,4 +1,4 @@
-﻿@model CinemaworldProject.Models.DataModel
+﻿@model List<CinemaworldProject.Data.Models.Movies>
 
 @{
     ViewData["Title"] = "Home Page";
@@ -7,6 +7,11 @@
 @*<script src="D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\Scripts\jquery-1.10.2.min.js"></script>
 <script src="D:\C# Applications\CinemaWorld\CinemaWorld\CinemaWorldProject\CinemaworldProject\Scripts\jquery-ui-1.12.1.min.js"></script>
 <link href="~/css/CSS_Files/jquery-ui.min.css" rel="stylesheet" />*@
+
+@{ 
+    var firstMovie = Model[0];
+    var secondMovie = Model[1];
+}
 
 
 <div class="text-center">
@@ -20,10 +25,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="@firstMovie.ImageUrl" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="@secondMovie.ImageUrl" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="..." class="d-block w-100" alt="...">
@@ -43,7 +48,7 @@
     <div class="d-flex justify-content-center m-5">
         <div class="dropdown mr-4">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:slategrey; font-size: 20px; border: none;">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:white; font-size: 25px; border: none;">
                 Chose City
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -56,7 +61,7 @@
         </div>
         <div class="dropdown ml-4 mr-4">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:slategrey; font-size: 20px; border: none;">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:white; font-size: 25px; border: none;">
                 Chose Movie
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -69,7 +74,7 @@
         </div>
         <div class="dropdown ml-4">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:slategrey; font-size: 20px; border: none;">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial; color:white; font-size: 25px; border: none;">
                 01.21.22
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

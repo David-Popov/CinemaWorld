@@ -1,4 +1,5 @@
 ﻿using CinemaworldProject.Models;
+using CinemaworldProject.Services.MoviesService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,20 +12,22 @@ namespace CinemaworldProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IMovieService service;
+        public HomeController(IMovieService service)
         {
-            _logger = logger;
+            this.service = service;
         }
+        //private readonly ILogger<HomeController> _logger;
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
 
         public IActionResult Index()
         {
-            DataModel data = new DataModel()
-            {
-                Date = DateTime.UtcNow
-            };
-            return View(data);
+            var movies = service.GetMovies();
+            return View(movies);
         }
 
         public IActionResult Privacy()
